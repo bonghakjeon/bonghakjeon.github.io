@@ -1,0 +1,605 @@
+@font-face {
+  font-family: '이쁜폰트';
+  src: url(../font/NanumSquareR.woff);
+}
+
+@font-face {
+  font-family: '이쁜폰트';
+  font-weight: 800;
+  src: url(../font/NanumSquareB.woff);
+}
+
+
+
+div, input, textarea, .class  {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0px;
+  font-family: 'dotum';
+  font-weight: 900;
+}
+
+p,h4,h3,h2,h1,span {
+  transform: rotate(0.03deg)
+}
+
+
+.profile {
+  width: 100px; 
+  display:block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+
+.title {
+  text-align: center; 
+  font-size: 16px;
+}
+
+.content {
+  text-align: center;
+  
+}
+
+
+.box {
+  width: 200px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding-left: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-shadow: 5px 5px black;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+
+.left-menu {
+  width: 20%;
+  height: 400px;
+  background: cornflowerblue;
+/*  float: left;*/
+  display: inline-block;
+  vertical-align: top;
+}
+
+.right {
+  width: 80%;
+  height: 400px;
+  background: coral;
+/*  float: left;*/
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+/*  clear: both;*/
+}
+
+.theader {
+  width: 70%;
+  height: 50px;
+  background: red;
+  clear: both;
+/*  display: inline-block;*/
+}
+
+.tleft {
+  width: 100%;
+  height: 200px;
+  background: blue;
+  clear: both;
+/*  display: inline-block;*/
+/*  vertical-align: top;*/
+}
+
+.tright {
+  width:30%;
+  height: 200px;
+  background: green;
+  float:right;
+}
+
+.blog-content {
+  width: 80%;
+  height: 200px;
+  // background: #eee;
+  float: left;
+}
+
+.blog-img {
+  width: 20%;
+  height: 200px;
+  background: yellow;
+  float: left
+}
+
+.blog-profile {
+  width: 50px;
+  display: block;
+  float: left;
+}
+
+.blog-name {
+  float: left;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg), url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  padding: 1px;
+  text-align: center;
+}
+
+.sub-title {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  margin: auto;
+  width: 150px;
+}
+
+.main-content {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+.explain-box {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
+}
+
+
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.yellow-button {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}
+
+td,th {
+/* border: 1px solid black; */
+   text-align: center;
+}
+
+.cart-table td, .cart-table th {
+  padding: 15px;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table td,.cart-table th {
+  padding: 15px;
+  border-bottom: 2px solid #c2d3de; 
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.cart-table th:nth-child(2) {
+  width: 400px;
+}
+
+
+
+
+
+
+
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: chocolate;
+}
+.btn:focus {
+  background-color: grey;
+}
+.btn:active {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+
+
+
+.custom-link {
+  text-decoration: none;
+}
+.custom-link:link {
+  color: violet;
+}
+.custom-link:visited {
+  color: black;
+}
+
+.custom-link: link {
+  color: aqua;
+}
+
+
+
+
+
+.f-small {
+  font-size: 12px;
+}
+.f-mid {
+  font-size: 16px;
+}
+.f-lg {
+  font-size: 20px;   
+}
+.main-btn {
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+.bg-red {
+  background: red;
+}
+.bg-blue {
+  background: blue;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 5px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.product-container {
+  width: 80%
+  max-width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container::after {
+  content: '';
+  display: block;
+  clear: both;
+  float: none;
+}
+.product-container div {
+  float: left;   
+  width: 25%;
+  text-align: center;
+}
+
+.explain-container>div {
+  float : left;
+  width : 25%;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+  .product-container div{
+    width: 50%;      
+  }
+  .product-container {
+    max-width: 600px;  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;  
+  }
+  .product-container div{
+    width: 100%;      
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 10px;    
+  }
+}
+
+@media screen and (max-width : 992px) {
+  .explain-container>div {
+    float : left;
+    width : 50%;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .explain-container>div {
+    float : none;
+    width : 100%;
+  }
+}
+
+
+
+.product-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 20px;
+}
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;  
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(1, -0.08, .95, .49);
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay-wrap:hover .overlay-black {
+  margin-top: 50%;
+}
+
+
+.overlay-black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 100%;
+}
+
+.overlay-black {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 100%;
+  transition: all 1s;
+}
+
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.portfolio-item1 {
+  position: relative;
+  background-image: url(portfolio-1.jpg);
+  width: 50%;
+  height: 350px;
+  background-size: cover;
+  float: left;
+}
+.portfolio-container {
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+.portfolio-text {
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border : 0px solid white;
+  transition: border 0.5s;
+}
+
+.white-box:hover {
+  border : 30px solid white;
+}
+
+@media screen and (max-width : 768px) {
+  .portfolio-item1 {
+    float: none;
+    width: 100%
+  }
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+}
+
+.footer-icon {
+  color: white;
+  background: #4e61c0;
+  border-radius: 100px;
+  padding: 23px;
+}
+
+.row-3 {
+  width: 33%;
+  text-align: center;
+}
+
+div.main-background .custom {
+  color: green;
+}
+
+
+
+
+
+.input-file::file-selector-button {
+  background: skyblue;
+  border: none;
+  padding: 20px;
+}
+.input-file::file-selector-button:hover {
+  background: blue;
+}
